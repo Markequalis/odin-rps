@@ -1,0 +1,129 @@
+body {
+    font-family: 'Exo', sans-serif;
+    background-color: #800080;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.rps {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 600px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#round {
+    font-size: 1.5em;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+#rnumber {
+    font-weight: normal;
+    padding-bottom: 1rem;
+}
+
+#choices-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0;
+    position: relative;
+    flex-direction: row;
+}
+
+#pchoice, #cchoice {
+    font-weight: bold;
+    font-size: 1.2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: -10px;
+}
+
+.choice-image {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+#choices {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#choices button {
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+#choices button:hover {
+    background-color: #0056b3;
+}
+
+#results, #result-reason, #final-result {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+#results {
+    font-weight: normal;
+}
+
+#result-reason, #final-result {
+    font-weight: bold;
+}
+
+.credits {
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 1em;
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 1em;
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px 20px;
+    gap: 10px;
+}
+
+#round, #pchoice, #cchoice, #choices, #results, #result-reason, #final-result {
+    flex-shrink: 0;
+}
+
+#results, #result-reason, #final-result {
+    min-height: 1.5em;
+}

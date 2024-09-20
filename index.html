@@ -4,9 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock, Paper, Scissors</title>
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="resources/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="resources/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo:wght@100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <script src="script.js"></script>
+    <div class="rps">
+        <div id="round">
+            ROUND
+            <div id="rnumber">1</div>
+            <div id="results"></div>
+            <div id="result-reason"></div>
+            <div id="final-result"></div>
+        </div>
+        <div id="choices-container">
+            <div id="pchoice">
+                Player Choice:
+                <img id="pchoiceimg" class="choice-image" src="resources/images/blank.png">
+            </div>
+            <div id="choices">
+                <button data-choice="rock">ROCK</button>
+                <button data-choice="paper">PAPER</button>
+                <button data-choice="scissors">SCISSORS</button>
+            </div>
+            <div id="cchoice">
+                Computer Choice:
+                <img id="cchoiceimg" class="choice-image" src="resources/images/blank.png">
+            </div>
+        </div>
+    </div>
+    <div class="credits">
+        <a href="https://www.freepik.com/free-vector/collection-sign-language-icons_1039410.htm">Images used in the game were designed by Freepik</a>
+    </div>
+    <footer>
+        <img src ="resources/images/favicon.ico">RynerCorp 2024
+    </footer>
+    <script src="resources/js/script.js"></script>
 </body>
 </html>
