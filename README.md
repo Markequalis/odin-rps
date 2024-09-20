@@ -1,3 +1,3 @@
 # odin-rps
 
-This is my version of the Rock, Paper, Scissors game that The Odin Project assigned. This shouldn't be considered complete as I will be returning to it to add a GUI. Enjoy using it in your browser's console if you want!
+This is the *updated* version of the Rock, Paper, Scissors game that The Odin Project assigned. Updating the project to be web-based was honestly a little frustrating, but the challenge was fun overall! Any feedback is greatly appreciated! The old console based project can be found in the "old" branch. Enjoy!
